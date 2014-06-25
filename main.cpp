@@ -10,8 +10,8 @@ int main()
 {
 	srand (time(NULL));
 	//possibilities for player name and type
-	string name[5] {"Onyx","Draven","Talon","Rykin","Swyft"};
-	string type[5] {"Warlock","Archer","Druid","Ranger","Barbarian"};
+	string name[5] = {"Onyx","Draven","Talon","Rykin","Swyft"};
+	string type[5] = {"Warlock","Archer","Druid","Ranger","Barbarian"};
 
 	Weapon* w1 = createWeapon();
 	Armor* a1 = createArmor();
