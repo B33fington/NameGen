@@ -50,11 +50,11 @@ void doBattle( Player* p1, Player* p2)
 	}
 	if(p1->health > 0){
 		cout << p2->name << " the " << p2->type << " seems to be the student, while " 
-		<< p1->name << " the " << p1->type << " is clearly the master!" << endl;
+		<< p1->name << " the " << p1->type << " is clearly the master!" << endl << endl;
 	}
 	else{
 		cout << p1->name << " the " << p1->type << " seems to be the student, while " 
-		<< p2->name << " the " << p2->type << " is clearly the master!" << endl;
+		<< p2->name << " the " << p2->type << " is clearly the master!" << endl << endl;
 	}
 
 }
