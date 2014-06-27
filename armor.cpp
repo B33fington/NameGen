@@ -12,8 +12,7 @@ Armor* createArmor()
 	string adjective2[5] = {"of the Trinity","from the Deep","of the Ages","of the Mist","of Light"};
 	
 	string text = adjective[rand()%5] + ' ' + type[rand()%5] + ' ' + adjective2[rand()%5];
-	int s = text.size();
-	a->name = new char[s];
+	a->name = new char[text.size() + 1];
 
 	strcpy(a->name, text.c_str());
 

@@ -10,8 +10,8 @@ Player* createPlayer(const char* name, const char *type, Weapon *w, Armor *a)
 	string n = name;
 	string t = type;
 
-	p->name = new char[n.size()];
-	p->type = new char[t.size()];	
+	p->name = new char[n.size() + 1];
+	p->type = new char[t.size() + 1];	
 
 	equipPlayerWeapon( p, w );
 	equipPlayerArmor( p, a);
