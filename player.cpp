@@ -6,13 +6,17 @@ Player* createPlayer(const char* name, const char *type, Weapon *w, Armor *a)
 
 	Player* p = new Player();
 	p->health = rand()%20 + 20;
-	p->name = new char[10];
-	p->type = new char[10];;
+	
+	string n = name;
+	string t = type;
+
+	p->name = new char[n.size()];
+	p->type = new char[t.size()];	
 
 	equipPlayerWeapon( p, w );
 	equipPlayerArmor( p, a);
-	strcpy(p->name, name);
-	strcpy(p->type, type);
+	strcpy(p->name, n.c_str());
+	strcpy(p->type, t.c_str());
 
 	return p;
 }

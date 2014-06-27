@@ -24,17 +24,17 @@ int main()
 	//showPlayerInfo(p2);
 
 	doBattle(p1, p2);
-	cout << "The Battle is over!!!" << endl;
+	cout << "The Battle is over!!!" << endl << endl << endl;
 	
-	cout << "Murdering the Players" << endl;
+	cout << "Murdering the Players..." << endl;
 	destroyPlayer(p1);
 	destroyPlayer(p2);
 
-	cout << "Destroying Weapons" << endl;
+	cout << "Destroying Weapons..." << endl;
 	destroyWeapon(w1);
 	destroyWeapon(w2);
 
-	cout << "Destroying the Armor" << endl;
+	cout << "Destroying the Armor..." << endl;
 	destroyArmor(a1);
 	destroyArmor(a2);
 	

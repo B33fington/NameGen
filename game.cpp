@@ -62,4 +62,5 @@ void doBattle( Player* p1, Player* p2)
 void pause(){
 	cout << endl << "Press Enter to Continue" << endl << endl;
 	cin.ignore(std::numeric_limits<streamsize>::max(),'\n');
+	system("CLS");
 }

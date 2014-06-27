@@ -3,7 +3,7 @@ CC = g++
 CFLAGS = -Wall -std=c++11
 
 # Files:
-FILES = main.cpp weapon.cpp armor.cpp player.cpp game.cpp
+FILES = main.cpp weapon.cpp armor.cpp game.cpp player.cpp
 #or
 # FILES = $(wildcard *.cpp)
 
