@@ -1,6 +1,6 @@
 # Compiler
 CC = g++
-CFLAGS = -Wall -std=c++11
+CFLAGS = -Wall -std=c++11 -static-libgcc -static-libstdc++
 
 # Files:
 FILES = main.cpp weapon.cpp armor.cpp game.cpp player.cpp
